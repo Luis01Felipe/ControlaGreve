@@ -12,7 +12,6 @@ import java.util.List;
 @RequestMapping("/greve")
 public class GreveControlador {
     private final GreveRepositorio repositorio;
-
     // Endpoint que age como 'SELECT *'
     @GetMapping
     public List<Greve> getAllGreve() {
