@@ -11,43 +11,38 @@ import java.util.List;
 @AllArgsConstructor
 @RequestMapping("/greve")
 public class GreveControlador {
-    private final GreveRepositorio repositorio;
+    private final GreveServico greveService;
 
-    // Endpoint que age como 'SELECT *'
     @GetMapping
     public List<Greve> getAllGreve() {
-        return repositorio.findAll();
+        return greveService.getAllGreves();
     }
 
-    // Endpoint que age como 'SELECT com WHERE 'id' = valor'
-    // TODO: Permitir que ele seja um SELECT com WHERE capaz de buscar por qualquer caracteristica
     @GetMapping("/{id}")
-    public Greve getGreveById(@PathVariable Long id) {
-        return repositorio.findById(id).get();
+    public ResponseEntity<Greve> getGreveById(@PathVariable Long id) {
+        return greveService.getGreveById(id)
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
     }
 
-    // Endpoint que age como 'INSERT INTO'
     @PostMapping
     public ResponseEntity<Greve> saveGreve(@RequestBody Greve greve) {
-        Greve salvarGreve = repositorio.save(greve);
+        Greve salvarGreve = greveService.saveGreve(greve);
         return ResponseEntity.status(HttpStatus.CREATED).body(salvarGreve);
     }
 
-    // Endpoint que age como 'UPDATE'
     @PutMapping("/{id}")
     public ResponseEntity<Greve> updateGreve(@PathVariable Long id, @RequestBody Greve updatedGreve) {
-        if (repositorio.existsById(id)) {
-            updatedGreve.setId(id);
-            Greve savedGreve = repositorio.save(updatedGreve);
+        Greve savedGreve = greveService.updateGreve(id, updatedGreve);
+        if (savedGreve != null) {
             return ResponseEntity.ok(savedGreve);
         } else {
             return ResponseEntity.notFound().build();
         }
     }
 
-    // Endpoint que age como 'DELETE com WHERE 'id' = valor'
     @DeleteMapping("/{id}")
     public void deleteGreve(@PathVariable Long id) {
-        repositorio.deleteById(id);
+        greveService.deleteGreve(id);
     }
 }
