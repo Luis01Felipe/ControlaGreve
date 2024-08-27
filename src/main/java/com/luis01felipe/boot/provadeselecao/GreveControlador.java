@@ -14,8 +14,16 @@ public class GreveControlador {
     private final GreveServico greveService;
 
     @GetMapping
-    public List<Greve> getAllGreve() {
-        return greveService.getAllGreves();
+    public ResponseEntity<List<Greve>> getAllGreve() {
+        List<Greve> greves = greveService.getAllGreves();
+
+        if (greves.isEmpty()) {
+            // Retorna 204 No Content se a lista estiver vazia
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        } else {
+            // Retorna 200 OK com a lista de greves
+            return new ResponseEntity<>(greves, HttpStatus.OK);
+        }
     }
 
     @GetMapping("/{id}")
@@ -42,7 +50,13 @@ public class GreveControlador {
     }
 
     @DeleteMapping("/{id}")
-    public void deleteGreve(@PathVariable Long id) {
-        greveService.deleteGreve(id);
+    public ResponseEntity<Void> deleteGreve(@PathVariable Long id) {
+        boolean isDeleted = greveService.deleteGreve(id);
+
+        if (isDeleted) {
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
     }
 }

@@ -38,7 +38,14 @@ public class GreveServico {
     }
 
     // Endpoint que age como 'DELETE com WHERE 'id' = valor'
-    public void deleteGreve(Long id) {
-        repositorio.deleteById(id);
+    public boolean deleteGreve(Long id) {
+        Optional<Greve> greve = repositorio.findById(id);
+        if (greve.isPresent()) {
+            repositorio.delete(greve.get());
+            return true;
+        } else {
+            return false;
+        }
     }
+
 }
