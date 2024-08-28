@@ -1,7 +1,8 @@
 package com.luis01felipe.boot.provadeselecao;
 
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.luis01felipe.boot.provadeselecao.exceptions.InvalidDateFormatException;
+import com.luis01felipe.boot.provadeselecao.exceptions.InvalidNumberFormatException;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -10,7 +11,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDate;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 
 @Entity
 @Data
@@ -21,12 +23,24 @@ public class Greve {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    long        id;
-    LocalDate   dataInicio;
-    LocalDate   dataFim;
-    String      motivo;
-    String      categoriaTrabalhadores;
-    String      sindicatoResponsavel;
-    Integer     numeroTrabalhadores;
-    String      local;
+    private long id;
+
+    // Validação para formato de data
+    @NotNull
+    @Pattern(regexp = "\\d{4}-\\d{2}-\\d{2}", message = "O formato de data está errado, ele deve estar como: ano-mês-dia")
+    private String dataInicio;
+
+    @NotNull
+    @Pattern(regexp = "\\d{4}-\\d{2}-\\d{2}", message = "O formato de data está errado, ele deve estar como: ano-mês-dia")
+    private String dataFim;
+
+    private String motivo;
+    private String categoriaTrabalhadores;
+    private String sindicatoResponsavel;
+
+    // Validação para número de trabalhadores
+    @NotNull(message = "Por favor, insira o número de trabalhadores.")
+    private Integer numeroTrabalhadores;
+
+    private String local;
 }

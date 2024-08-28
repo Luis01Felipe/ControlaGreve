@@ -38,5 +38,27 @@ public class GlobalExceptionHandler {
                 .body("Por favor, especifique um ID.");
     }
 
-    // Adicione outros manipuladores de exceções conforme necessário
+    @ExceptionHandler(InvalidDateFormatException.class)
+    public ResponseEntity<String> handleInvalidDateFormatException(InvalidDateFormatException ex) {
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+                .body(ex.getMessage());
+    }
+
+    @ExceptionHandler(InvalidNumberFormatException.class)
+    public ResponseEntity<String> handleInvalidNumberFormatException(InvalidNumberFormatException ex) {
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+                .body(ex.getMessage());
+    }
+
+    @ExceptionHandler(InvalidStringFormatException.class)
+    public ResponseEntity<String> handleInvalidStringFormatException(InvalidStringFormatException ex) {
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+                .body(ex.getMessage());
+    }
+
+    @ExceptionHandler(InvalidDictionaryFormatException.class)
+    public ResponseEntity<String> handleInvalidDictionaryFormatException(InvalidDictionaryFormatException ex) {
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+                .body(ex.getMessage());
+    }
 }
