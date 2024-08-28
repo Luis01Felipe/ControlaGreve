@@ -48,4 +48,7 @@ public class GreveServico {
         }
     }
 
+    public boolean existsById(Long id) {
+        return repositorio.existsById(id);
+    }
 }

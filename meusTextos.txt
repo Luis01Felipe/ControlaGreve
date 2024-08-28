@@ -1,0 +1,9 @@
+{
+  "dataInicio": "2024-08-26",
+  "dataFim": "2024-08-30",
+  "motivo": "Melhorias salariais",
+	"categoriaTrabalhadores": "Professor",
+  "sindicatoResponsavel": "Sindicato dos Professores",
+  "numeroTrabalhadores": 200,
+  "local": "São Paulo"
+}
