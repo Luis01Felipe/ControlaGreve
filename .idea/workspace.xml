@@ -4,41 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="937ec0bb-80f8-4d38-8a55-c24a136ccf3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meusTextos.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/Greve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/Greve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/GreveControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/GreveControlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/GreveRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/GreveRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/GreveServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/GreveServico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/ProvaDeSelecaoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/ProvaDeSelecaoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/InvalidDataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/InvalidDataException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/InvalidDateFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/InvalidDateFormatException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/InvalidDictionaryFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/InvalidDictionaryFormatException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/InvalidNumberFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/InvalidNumberFormatException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/InvalidRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/InvalidRequestException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/InvalidStringFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/InvalidStringFormatException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/MissingIdException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/MissingIdException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/luis01felipe/boot/provadeselecao/ProvaDeSelecaoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/luis01felipe/boot/provadeselecao/ProvaDeSelecaoApplicationTests.java" afterDir="false" />
-    </list>
-    <list id="0df8e83f-9c7d-4c13-a31a-d44230e47644" name="Changes by hugoh" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/GreveServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/GreveServico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/ProvaDeSelecaoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/ProvaDeSelecaoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="937ec0bb-80f8-4d38-8a55-c24a136ccf3b" name="Changes" comment="Mudança de Maven para Gradle">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,21 +67,6 @@
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
 }]]></component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/GreveServico.java">
-      <ranges>
-        <range start1="0" end1="1" start2="0" end2="1" changelist="937ec0bb-80f8-4d38-8a55-c24a136ccf3b" />
-        <range start1="11" end1="12" start2="11" end2="11" changelist="0df8e83f-9c7d-4c13-a31a-d44230e47644" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/ProvaDeSelecaoApplication.java">
-      <ranges>
-        <range start1="0" end1="1" start2="0" end2="1" changelist="937ec0bb-80f8-4d38-8a55-c24a136ccf3b" />
-        <range start1="7" end1="8" start2="7" end2="7" changelist="0df8e83f-9c7d-4c13-a31a-d44230e47644" />
-        <range start1="11" end1="12" start2="10" end2="10" changelist="0df8e83f-9c7d-4c13-a31a-d44230e47644" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 4
@@ -265,8 +217,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725029593838</updated>
-      <workItem from="1725029596866" duration="3119000" />
+      <workItem from="1725029596866" duration="4283000" />
     </task>
+    <task id="LOCAL-00001" summary="Mudança de Maven para Gradle">
+      <option name="closed" value="true" />
+      <created>1725032824866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725032824866</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ajustes">
+      <option name="closed" value="true" />
+      <created>1725032854318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725032854318</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,5 +251,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mudança de Maven para Gradle" />
+    <MESSAGE value="Changes by hugoh" />
+    <MESSAGE value="Ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes" />
   </component>
 </project>
