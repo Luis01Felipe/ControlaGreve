@@ -9,7 +9,6 @@ import java.util.Optional;
 @Service
 @AllArgsConstructor
 public class GreveServico {
-
     private final GreveRepositorio repositorio;
 
     // Endpoint que age como 'SELECT *'

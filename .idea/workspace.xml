@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="937ec0bb-80f8-4d38-8a55-c24a136ccf3b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meusTextos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/Greve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/Greve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/GreveControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/GreveControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/GreveRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/GreveRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/GreveServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/GreveServico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/ProvaDeSelecaoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/ProvaDeSelecaoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/InvalidDataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/InvalidDataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/InvalidDateFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/InvalidDateFormatException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/InvalidDictionaryFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/InvalidDictionaryFormatException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/InvalidNumberFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/InvalidNumberFormatException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/InvalidRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/InvalidRequestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/InvalidStringFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/InvalidStringFormatException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/MissingIdException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/MissingIdException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/exceptions/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/luis01felipe/boot/provadeselecao/ProvaDeSelecaoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/luis01felipe/boot/provadeselecao/ProvaDeSelecaoApplicationTests.java" afterDir="false" />
+    </list>
+    <list id="0df8e83f-9c7d-4c13-a31a-d44230e47644" name="Changes by hugoh" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/GreveServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/GreveServico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luis01felipe/boot/provadeselecao/ProvaDeSelecaoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/ProvaDeSelecaoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Prova de Selecao" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Prova de Selecao" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Prova de Selecao" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Luis01Felipe"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Luis01Felipe/Prova-de-Selecao.git",
+    "accountId": "fff96494-96e6-4e24-9827-9cd0ea2f7a2d"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/GreveServico.java">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="1" changelist="937ec0bb-80f8-4d38-8a55-c24a136ccf3b" />
+        <range start1="11" end1="12" start2="11" end2="11" changelist="0df8e83f-9c7d-4c13-a31a-d44230e47644" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/io/github/luis01felipe/boot/provadeselecao/ProvaDeSelecaoApplication.java">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="1" changelist="937ec0bb-80f8-4d38-8a55-c24a136ccf3b" />
+        <range start1="7" end1="8" start2="7" end2="7" changelist="0df8e83f-9c7d-4c13-a31a-d44230e47644" />
+        <range start1="11" end1="12" start2="10" end2="10" changelist="0df8e83f-9c7d-4c13-a31a-d44230e47644" />
+      </ranges>
+    </file>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2lNnqS7E4s1M8LgN4GqwtY6i2cj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Gradle.Build Prova-de-Selecao.executor": "Run",
+    "Gradle.Prova-de-Selecao [bootJar].executor": "Run",
+    "Gradle.Prova-de-Selecao [build].executor": "Run",
+    "Gradle.Prova-de-Selecao [clean].executor": "Run",
+    "Gradle.Prova-de-Selecao.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ProvaDeSelecaoApplication.executor": "Debug",
+    "git-widget-placeholder": "newMaster",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.Prova-de-Selecao [bootJar]">
+    <configuration name="Prova-de-Selecao [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Prova-de-Selecao [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Prova-de-Selecao [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProvaDeSelecaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Prova_de_Selecao.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.luis01felipe.boot.provadeselecao.ProvaDeSelecaoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.luis01felipe.boot.provadeselecao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Prova-de-Selecao [bootJar]" />
+        <item itemvalue="Gradle.Prova-de-Selecao [build]" />
+        <item itemvalue="Gradle.Prova-de-Selecao [clean]" />
+        <item itemvalue="Spring Boot.ProvaDeSelecaoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="937ec0bb-80f8-4d38-8a55-c24a136ccf3b" name="Changes" comment="" />
+      <created>1725029593838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725029593838</updated>
+      <workItem from="1725029596866" duration="3119000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
